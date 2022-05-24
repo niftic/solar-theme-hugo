@@ -130,7 +130,7 @@ iframe {
 /*** Basics ***/
 body {
 	font-family: Verdana, Sans-Serif;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1.7;
 }
 
@@ -206,7 +206,7 @@ h1 {
 	margin: 0 0 10px 0;
 }
 h2 {
-	font-size: 15px;
+	font-size: 20px;
 	margin: 0 0 10px 0;
 }
 h3 {
@@ -260,21 +260,22 @@ h3 {
 
 /*** Structure ***/
 #page {
-	width: 500px;
+	width: 40%;
 	margin: 0 auto;
 	position: relative;
 }
 
 #header {
-	width: 650px;
-	padding-left: 150px;
+	width: 40%;
+	padding-left: 0px;
 	margin: 40px auto 50px auto;
-	background: url(/img/logo.svg) no-repeat center left;
 	background-size: auto 100%;
 }
 #header h1 {
-	font-size: 32px;
+	font-size: 40px;
 	margin-bottom: 4px;
+	color: #39798b;
+	text-align: center;
 }
 #header h1 a {
 	border: none;
@@ -304,7 +305,7 @@ h3 {
 }
 
 #footer {
-	width: 500px;
+	width: 100%;
 	margin: 20px auto;
 	padding-top: 10px;
 	font-size: 0.85em;
@@ -312,16 +313,22 @@ h3 {
 }
 
 #content {
-	width: 500px;
+	width: 100%;
 	margin: 0 auto;
 }
 
 #sidebar {
-	position: absolute;
+	position: fixed;
 	text-align: right;
-	width: 160px;
-	top: 0;
-	left: -240px;
+	right: 70%;
+	padding: 10px 20px 10px 10px;
+	border-right: 1px solid #073642;
+	margin: auto 30px auto auto;
+	width: 300px;
+}
+
+#sidebar ul {
+	padding: 0;
 }
 
 #sidebar li {
@@ -357,7 +364,7 @@ article {
 }
 
 article h1 {
-	font-size: 17px;
+	font-size: 24px;
 	margin: 0 0 10px 0;
 }
 article h1 a {
